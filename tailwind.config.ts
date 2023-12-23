@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type {Config} from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -8,13 +8,29 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: '#D20653',
+        secondary: '#FF951D',
+        white: '#fff',
+        offWhite: '#F6F4F5;',
+        orange1: '#FFF5E9',
+        orange2: '#FFEAD2',
+        gray1: '#333333',
+        gray2: '#4F4F4F',
+        gray3: '#828282',
+        gray5: '#E0E0E0',
+      },
+      boxShadow: {
+        card: '0px 35px 120px -15px #211e35',
+      },
+      screens: {
+        xs: '450px',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        // 'hero-pattern': "url('/hero/herobg.png')",
       },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;

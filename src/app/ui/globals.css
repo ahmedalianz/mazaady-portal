@@ -25,3 +25,35 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+.red-orange-gradient {
+  background: linear-gradient(90deg, #d20653 0%, #ff951d 100%);
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-5 {
+  flex: 5;
+}
+.angled-radius {
+  border-radius: 33.804px 0px;
+}
+.active-indicator {
+  position: absolute;
+  top: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 6px;
+  width: 100%;
+  background-color: #d20653;
+  border-radius: 8px 8px 0px 0px;
+}
