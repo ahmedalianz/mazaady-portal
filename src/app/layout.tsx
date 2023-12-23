@@ -13,14 +13,13 @@ export const metadata: Metadata = {
   description: 'Mazaady Portal Page',
   keywords: 'Mazaady, Portal',
   authors: [{name: 'Ahmed Afify'}],
-  // openGraph: {
-  //   type: 'website',
-  //   title: 'Mazaady Portal Page',
-  //   siteName: 'Mazaady Portal Page',
-  //   description: 'Mazaady Portal Page',
-  //   images: [{url: '/hero/profile-dark.png'}], //TODO
-  //   url: 'https://ahmedafify.vercel.app/', //TODO
-  // },
+  openGraph: {
+    type: 'website',
+    title: 'Mazaady Portal Page',
+    siteName: 'Mazaady Portal Page',
+    description: 'Mazaady Portal Page',
+    url: 'https://mazaady-portal.vercel.app/',
+  },
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
