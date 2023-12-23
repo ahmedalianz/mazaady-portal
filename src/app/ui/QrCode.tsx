@@ -16,7 +16,7 @@ export const QrCode = () => {
           <Image src={icons.share} alt="share" className={classes.icon} />
           <Image src={icons.download} alt="download" className={classes.icon} />
           <Image
-            src={showDetails ? icons.arrowDown : icons.arrowUp}
+            src={showDetails ? icons.arrowUp : icons.arrowDown}
             alt="toggle"
             className={classes.icon + ' cursor-pointer block md:hidden'}
             onClick={() => setShowDetails(prev => !prev)}
