@@ -106,7 +106,7 @@ export const Navbar = () => {
           </div>
           <div className="lg:flex items-center ps-8 h-6 hidden">
             <Image src={icons.global} alt="language" className={classes.icon} />
-            <Separator />
+            <Separator color="bg-gray5" />
             <Image
               src={icons.language}
               alt="current-language"
